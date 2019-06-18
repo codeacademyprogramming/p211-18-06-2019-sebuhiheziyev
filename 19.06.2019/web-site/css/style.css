@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.work-area {
+  margin-top: 50px;
+  border: 3px solid chocolate;
+  border-radius: 2px;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.input-area {
+  margin-top: 50px;
+}
+.input-area p {
+  color: chocolate;
+  font-size: 25px;
+  font-weight: 700;
+}
+#bg-color,
+#all-color {
+  border: none;
+  display: block;
+  width: 50%;
+  height: 20px;
+}
+#bg-img,
+#bol-img,
+#bol-size,
+#animation-sped {
+  display: block;
+  width: 50%;
+  height: 27px;
+  border: 2px solid #555;
+}
+.bol {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: red;
+  bottom: 10px;
+  left: 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sped1 {
+  animation: Progress 0.1s infinite alternate-reverse;
+}
+.sped2 {
+  animation: Progress 0.2s infinite alternate-reverse;
+}
+.sped3 {
+  animation: Progress 0.3s infinite alternate-reverse;
+}
+.sped4 {
+  animation: Progress 0.4s infinite alternate-reverse;
+}
+.sped5{
+  animation: Progress 0.5s infinite alternate-reverse;
+}
+.sped6{
+  animation: Progress 0.6s infinite alternate-reverse;
+}
+.sped7{
+  animation: Progress 0.8s infinite alternate-reverse;
+}
+.sped8{
+  animation: Progress 0.9s infinite alternate-reverse;
+}
+.sped9{
+  animation: Progress 0.9s infinite alternate-reverse;
+}
+.sped10{
+  animation: Progress 1s infinite alternate-reverse;
+}
+
+@keyframes Progress {
+  0% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 200px;
+  }
+}

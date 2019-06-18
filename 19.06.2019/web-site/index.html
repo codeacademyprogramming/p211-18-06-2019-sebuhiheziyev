@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="work-area">
+            <div class="bol sped2"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-area">
+            <p>Circle Input!</p>
+            <div class="color-input">
+              <label for="bg-color">Backgraound Color</label>
+              <input type="color" id="bg-color" />
+            </div>
+            <div class="color-input my-3">
+              <label for="all-color">Color</label>
+              <input type="color" id="all-color" />
+            </div>
+            <div class="img-input my-3">
+              <label for="bg-img">Add Backgraound Img Url</label>
+              <input type="text" id="bg-img" placeholder="Images url" />
+            </div>
+            <div class="img-input my-3">
+                <label for="bol-img">Add Bol Backgraound Img Url</label>
+                <input type="text" id="bol-img" placeholder="Images url" />
+            </div>
+            <div class="img-input my-3">
+                <label for="bol-size">Add Bol Size</label>
+                <input type="number" id="bol-size" min="1" max="300">
+            </div>
+            <div class="img-input my-3">
+                <label for="animation-sped">Add Animation Sped</label>
+                <input type="range" value="2" id="animation-sped" min="1" max="10">
+                <span class="animation-sped-show">2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
