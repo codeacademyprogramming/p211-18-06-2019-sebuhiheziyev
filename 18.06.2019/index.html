@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Samir</title>
+    <meta name="keywords" content="şəkər tozu, pesok, şəkər çuğunduru" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Enter a title..." class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" placeholder="Enter a message..." rows="5"></textarea>
+          </div>
+          <button class="btn btn-primary mt-3 show-toaster">Show toast</button>
+        </div>
+        <div class="col-8 pl-5">
+          <p>Toast type</p>
+          <ul>
+            <li>
+              <input name="toastType" checked value="bg-success" class="mr-3" type="radio" />Success
+            </li>
+            <li>
+              <input name="toastType" value="bg-info" class="mr-3" type="radio" />Info
+            </li>
+            <li>
+              <input name="toastType" value="bg-warning" class="mr-3" type="radio" />Warning
+            </li>
+            <li>
+              <input name="toastType" value="bg-danger" class="mr-3" type="radio" />Error
+            </li>
+          </ul>
+
+          <p class="mt-5">Position</p>
+          <ul>
+            <li>
+              <input name="position" checked value="top_right" class="mr-3" type="radio" />Top right
+            </li>
+            <li>
+              <input name="position" value="bottom_right" class="mr-3" type="radio" />Bottom right
+            </li>
+            <li>
+              <input name="position" value="bottom_left" class="mr-3" type="radio" />Bottom left
+            </li>
+            <li>
+              <input name="position" value="top_left" class="mr-3" type="radio" />Top left
+            </li>
+            
+            <li>
+                <input name="position" value="top_full" class="mr-3" type="radio" />Top full width
+            </li>
+            <li>
+              <input name="position" value="bottom_full" class="mr-3" type="radio" />Bottom full
+            </li>
+            <li>
+              <input name="position" value="top_center" class="mr-3" type="radio" />Top center
+            </li>
+            <li>
+              <input name="position" value="bottom_center" class="mr-3" type="radio" />Bottom center
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
